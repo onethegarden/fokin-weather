@@ -7,19 +7,27 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 const weatherOptions = {
   Thunderstorm: {
     iconName: "weather-lightning",
-    gradient: ["#373B44", "#4286f4"]
+    gradient: ["#373B44", "#4286f4"],
+    title: "Thunderstorm in the house",
+    subtitle: "Actually, outside of the house"
   },
   Drizzle: {
     iconName: "weather-hail",
-    gradient: ["#89F7FE", "#66A6FF"]
+    gradient: ["#89F7FE", "#66A6FF"],
+    title: "Drizzle",
+    subtitle: "Stay home"
   },
   Rain: {
     iconName: "weather-rainy",
-    gradient: ["#00C6FB", "#005BEA"]
+    gradient: ["#00C6FB", "#005BEA"],
+    title: "Raining like a MF",
+    subtitle: "For more info look outside"
   },
   Snow: {
     iconName: "weather-snowy",
-    gradient: ["#7DE2FC", "#B9B6E5"]
+    gradient: ["#7DE2FC", "#B9B6E5"],
+    title: "Cold as balls",
+    subtitle: "Do you want to build a snowman?"
   },
   Atmosphere: {
     iconName: "weather-hail",
@@ -27,19 +35,26 @@ const weatherOptions = {
   },
   Clear: {
     iconName: "weather-sunny",
-    gradient: ["#FF7300", "#FEF253"]
+    gradient: ["#FF7300", "#FEF253"],
+    title: "Sunny as fuck",
+    subtitle: "Let's go on a Picnic"
   },
   Clouds: {
     iconName: "weather-cloudy",
-    gradient: ["#D7D2CC", "#304352"]
+    gradient: ["#D7D2CC", "#304352"],
+    title: "Clouds",
+    subtitle: "I know, boring"
   },
   Mist: {
     iconName: "weather-hail",
-    gradient: ["#4DA0B0", "#D39D38"]
+    gradient: ["#4DA0B0", "#D39D38"],
+    title: "Mist!"
   },
   Dust: {
     iconName: "weather-hail",
-    gradient: ["#4DA0B0", "#D39D38"]
+    gradient: ["#4DA0B0", "#D39D38"],
+    title: "Dusty",
+    subtitle: "Stay home Stay safe"
   },
   Haze: {
     iconName: "weather-hail",
